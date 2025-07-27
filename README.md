@@ -1,12 +1,14 @@
 # Internship Tracker & Skills Badge Manager
 
-[![GitHub contributors](https://img.shields.io/github/contributors/yourusername/internship-tracker)](https://github.com/yourusername/internship-tracker/graphs/contributors)
-[![GitHub license](https://img.shields.io/github/license/yourusername/internship-tracker)](https://github.com/yourusername/internship-tracker/blob/main/LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/yourusername/internship-tracker)](https://github.com/yourusername/internship-tracker/issues)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/yourusername/internship-tracker/pulls)
-[![Discussions](https://img.shields.io/badge/Discussions-open-blue)](https://github.com/yourusername/internship-tracker/discussions)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Varunshiyam/CRM-Driven-Internship-Application-Tracker/pulls)
+[![GitHub contributors](https://img.shields.io/github/contributors/Varunshiyam/internship-tracker)](https://github.com/Varunshiyam/CRM-Driven-Internship-Application-Tracker/graphs/contributors)
+[![License: GPL v2](https://img.shields.io/badge/License-GPLv2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
+[![GitHub issues](https://img.shields.io/github/issues/Varunshiyam/internship-tracker)](https://github.com/Varunshiyam/CRM-Driven-Internship-Application-Tracker/issues)
+[![Discussions](https://img.shields.io/badge/Discussions-open-blue)](https://github.com/Varunshiyam/CRM-Driven-Internship-Application-Tracker/discussions)
 
 ---
+
+
 
 ## 📌 Project Overview
 
