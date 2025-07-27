@@ -103,16 +103,6 @@ These LWCs deliver a seamless, responsive user experience fully integrated with 
 
 ## 📂 Project Structure
 
-Here is the file structure for this project.
-
-Of course. My apologies, the previous version used placeholder comments.
-
-Here is a properly aligned code block with example file names to give a clearer and more realistic view of your project's structure. This version has precise alignment for the tree structure.
-
-You can copy and paste this directly into your `README.md`.
-
-## 📂 Project Structure
-
 ```
 .
 ├── .gitignore
