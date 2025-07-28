@@ -1,0 +1,35 @@
+<template>
+    <lightning-card icon-name="utility:education" title="Drag & Drop Skill Prioritization">
+        <div class="slds-p-around_medium">
+            <template if:true={skills}>
+                <ul class="skill-list" ondragover={handleDragOver} ondrop={handleDrop}>
+                    <template for:each={skills} for:item="skill">
+                        <li 
+                            key={skill.Id} 
+                            class="skill-item" 
+                            data-id={skill.Id} 
+                            draggable="true" 
+                            ondragstart={handleDragStart}
+                            ondragend={handleDragEnd}
+                        >
+                            <div class="skill-info">
+                                <strong>{skill.Name}</strong> 
+                                <span class="proficiency">({skill.Proficiency_Level__c})</span><br />
+                                <small>Status: {skill.Completion_Status__c}</small><br />
+                                <small>Start: {skill.Start_Date__c}</small><br />
+                                <small>End: {skill.End_Date__c}</small>
+                            </div>
+                            <span class="drag-handle" title="Drag to reorder">&#x2630;</span>
+                        </li>
+                    </template>
+                </ul>
+            </template>
+            <template if:true={error}>
+                <div class="slds-text-color_error">{error}</div>
+            </template>
+            <template if:true={isLoading}>
+                <lightning-spinner alternative-text="Loading" size="medium"></lightning-spinner>
+            </template>
+        </div>
+    </lightning-card>
+</template>

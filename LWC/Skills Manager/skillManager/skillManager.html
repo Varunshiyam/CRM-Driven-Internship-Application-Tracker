@@ -1,0 +1,127 @@
+<template>
+    <lightning-card title="My Skills Tracker" icon-name="utility:education">
+        <div class="slds-p-around_medium">
+            <!-- Skill Name -->
+            <lightning-input label="Skill Name" value={skillName} data-id="skillName" onchange={handleInputChange} required></lightning-input>
+
+            <!-- Skill Type -->
+            <lightning-combobox 
+                label="Skill Type" 
+                options={skillTypeOptions} 
+                value={skillType} 
+                data-id="skillType"
+                onchange={handlePicklistChange}
+                placeholder="Select Skill Type"
+                required>
+            </lightning-combobox>
+
+            <!-- Proficiency Level -->
+            <lightning-combobox 
+                label="Proficiency Level" 
+                options={proficiencyOptions} 
+                value={proficiencyLevel} 
+                data-id="proficiencyLevel"
+                onchange={handlePicklistChange}
+                placeholder="Select Proficiency Level"
+                required>
+            </lightning-combobox>
+
+            <!-- Completion Status -->
+            <lightning-combobox 
+                label="Completion Status" 
+                options={completionStatusOptions} 
+                value={completionStatus} 
+                data-id="completionStatus"
+                onchange={handlePicklistChange}
+                placeholder="Select Completion Status"
+                required>
+            </lightning-combobox>
+
+            <!-- Start Date -->
+            <lightning-input 
+                label="Start Date" 
+                type="date" 
+                value={startDate} 
+                data-id="startDate" 
+                onchange={handleInputChange} 
+                required>
+            </lightning-input>
+
+            <!-- End Date -->
+            <lightning-input 
+                label="End Date" 
+                type="date" 
+                value={endDate} 
+                data-id="endDate" 
+                onchange={handleInputChange}>
+            </lightning-input>
+
+            <!-- Reason to Learn -->
+            <lightning-textarea 
+                label="Reason to Learn" 
+                value={reasonToLearn} 
+                data-id="reasonToLearn" 
+                onchange={handleInputChange}>
+            </lightning-textarea>
+
+            <!-- Reminder Needed? -->
+            <lightning-input 
+                type="checkbox" 
+                label="Need Reminders" 
+                checked={reminderNeeded} 
+                data-id="reminderNeeded" 
+                onchange={handleCheckboxChange}>
+            </lightning-input>
+
+            <!-- Reminder Frequency (conditionally shown) -->
+            <template if:true={reminderNeeded}>
+                <lightning-combobox 
+                    label="Reminder Frequency" 
+                    options={reminderFrequencyOptions} 
+                    value={reminderFrequency} 
+                    data-id="reminderFrequency" 
+                    onchange={handlePicklistChange}
+                    placeholder="Select Reminder Frequency"
+                    required>
+                </lightning-combobox>
+
+                <!-- Next Reminder Date -->
+                <lightning-input 
+                    label="Next Reminder Date" 
+                    type="date" 
+                    value={nextReminderDate} 
+                    data-id="nextReminderDate" 
+                    onchange={handleInputChange} 
+                    required>
+                </lightning-input>
+
+                <!-- Reminder Email (new) -->
+                <lightning-input 
+                    label="Reminder Email" 
+                    type="email" 
+                    value={reminderEmail} 
+                    data-id="reminderEmail"
+                    onchange={handleInputChange} 
+                    required>
+                </lightning-input>
+            </template>
+
+            <lightning-button variant="brand" label="Add/Update Skill" class="slds-m-top_medium" onclick={handleSave}></lightning-button>
+        </div>
+
+        <div class="slds-p-around_medium slds-m-top_medium">
+            <template if:true={skills}>
+                <lightning-datatable
+                    key-field="Id"
+                    data={skills}
+                    columns={columns}
+                    hide-checkbox-column
+                    onrowaction={handleRowAction}>
+                </lightning-datatable>
+            </template>
+            <template if:true={error}>
+                <p class="slds-text-color_error">{error}</p>
+            </template>
+        </div>
+    </lightning-card>
+</template>

@@ -1,0 +1,44 @@
+<template>
+    <lightning-card title="My Achievements & Badges" icon-name="custom:custom55">
+        <div class="badge-nested-bg">
+            <div class="badge-container">
+                <template if:true={badges}>
+                    <template if:true={badges.length}>
+                        <div class="badges-grid" ondragover={handleDragOver} ondrop={handleDrop}>
+                            <template for:each={badges} for:item="badge" for:index="i">
+                                <div
+                                    key={badge.userBadgeId}
+                                    class="badge-card"
+                                    data-id={badge.userBadgeId}
+                                    draggable="true"
+                                    ondragstart={handleDragStart}
+                                    ondragend={handleDragEnd}
+                                >
+                                    <div class="image-box">
+                                        <img src={badge.badgeImageURL} alt={badge.badgeName} class="badge-image"/>
+                                        <lightning-button-icon
+                                            icon-name="utility:close"
+                                            class="remove-btn"
+                                            alternative-text="Remove Badge"
+                                            title="Remove Badge"
+                                            onclick={handleRemove}
+                                            data-id={badge.userBadgeId}
+                                        ></lightning-button-icon>
+                                    </div>
+                                    <div class="badge-label {badgeClass(badge.badgeName)}">{badge.badgeName}</div>
+                                    <div class="earned-date">Earned: {badge.earnedDateFormatted}</div>
+                                </div>
+                            </template>
+                        </div>
+                    </template>
+                    <template if:false={badges.length}>
+                        <p class="no-badges-message">You haven't earned any badges yet. Keep learning!</p>
+                    </template>
+                </template>
+                <template if:true={error}>
+                    <p class="error-message">{error}</p>
+                </template>
+            </div>
+        </div>
+    </lightning-card>
+</template>

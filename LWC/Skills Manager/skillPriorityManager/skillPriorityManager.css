@@ -1,0 +1,44 @@
+.skill-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.skill-item {
+    background: #f4f6f9;
+    margin-bottom: 0.5rem;
+    padding: 0.75rem 1rem;
+    border-radius: 0.3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: grab;
+    user-select: none;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    transition: background-color 0.2s ease;
+}
+
+.skill-item:active {
+    cursor: grabbing;
+    background-color: #d9ebff;
+}
+
+.skill-info {
+    max-width: 85%;
+    font-family: Arial, sans-serif;
+}
+
+.proficiency {
+    font-style: italic;
+    color: #606060;
+}
+
+.drag-handle {
+    font-size: 1.6rem;
+    cursor: grab;
+    color: #777;
+    user-select: none;
+    padding-left: 0.5rem;
+}

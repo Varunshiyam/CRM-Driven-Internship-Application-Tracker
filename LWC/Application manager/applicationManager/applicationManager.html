@@ -1,0 +1,38 @@
+<template>
+    <lightning-card title="Internship Applications" icon-name="standard:jobs">
+        <div class="slds-p-around_medium">
+            <lightning-input label="Application Name" value={name} onchange={handleInputChange} data-id="name"></lightning-input>
+            <lightning-input label="Student Name" value={studentName} onchange={handleInputChange} data-id="studentName"></lightning-input>
+            <lightning-input label="Company Name" value={companyName} onchange={handleInputChange} data-id="companyName"></lightning-input>
+            <lightning-input label="Email" type="email" value={email} onchange={handleInputChange} data-id="email"></lightning-input>
+            <lightning-input label="Role Applied" value={role} onchange={handleInputChange} data-id="role"></lightning-input>
+            <lightning-combobox
+                label="Current Status"
+                value={status}
+                options={statusOptions}
+                onchange={handlePicklistChange}
+                data-id="status"
+            ></lightning-combobox>
+            <lightning-textarea label="Note" value={note} onchange={handleInputChange} data-id="note"></lightning-textarea>
+            <lightning-input label="Last Date to Apply" type="date" value={lastDate} onchange={handleInputChange} data-id="lastDate"></lightning-input>
+            <lightning-input label="Applied On" type="date" value={appliedOn} onchange={handleInputChange} data-id="appliedOn"></lightning-input>
+            <lightning-input type="checkbox" label="Applied?" checked={applied} onchange={handleCheckboxChange} data-id="applied"></lightning-input>
+            <lightning-button label="Submit" variant="brand" class="slds-m-top_small" onclick={handleSubmit}></lightning-button>
+        </div>
+
+        <div class="slds-m-top_large">
+            <template if:true={applications}>
+                <lightning-datatable
+                    key-field="Id"
+                    data={applications}
+                    columns={columns}
+                    hide-checkbox-column
+                    onrowaction={handleRowAction}>
+                </lightning-datatable>
+            </template>
+            <template if:true={error}>
+                <p class="slds-text-color_error">Error: {error}</p>
+            </template>
+        </div>
+    </lightning-card>
+</template>
