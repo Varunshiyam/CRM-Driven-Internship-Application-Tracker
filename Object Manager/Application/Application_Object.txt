@@ -1,0 +1,18 @@
+Data Models : 
+
+
+OBJECT 1:  Application__c
+
+Fields:
+
+1. Role_Applied__c  (Text)
+2. Student_Name__c  (Text)
+3. Email__c  (Email)
+4. Role_Applied__c  (Text)
+5.  Current_Status__c  (Picklist -values: None , Applied , Shortlisted, Selected, Rejected)
+6.  Note__c.  (Text area (not compulsory))
+7.  Last_Date_to_Apply__c  (Date)
+8.  Applied_On__c (Date)
+9.  Applied__c. (Checkbox)
+10.  Company_Name__c (Text)
+11. Name (this is the name of the Application)ß(Text)
