@@ -1,0 +1,28 @@
+//SELECTED TRIGGER APPLICATION:
+
+trigger Application_Update_Trigger on Application__c (after update) {
+    
+    for (Application__c newRec : Trigger.new) {
+        Application__c oldRec = Trigger.oldMap.get(newRec.Id);
+        
+        // Check if status changed to 'Selected'(only the new one)
+        if (newRec.Current_Status__c  == 'Selected' && oldRec.Current_Status__c  != 'Selected') {
+            
+            // Check if Email__c field is present
+            if (String.isNotBlank(newRec.Email__c)) {
+                String toEmail = newRec.Email__c;
+                String subject = '🎉 Internship Status Update - Selected!';
+                String body = 'Hi ' + newRec.Student_Name__c + ',\n\n' +
+                              'Congratulations! You have been selected for the internship at ' + newRec.Company_Name__c + '.\n\n' +
+                              'Role: ' + newRec.Role_Applied__c  + '\n' +
+                              'Application Date: ' + String.valueOf(newRec.Applied_On__c) + '\n\n' +
+                              'We wish you the best in your journey!\n\n' +
+                              'Thanks For using our Internship Tracker \n'+
+                              'Regards,\nSalesForce Internship Tracker Team';
+
+                // Call your reusable mailer class
+                Application_Mailer.sendMail(toEmail, subject, body);
+            }
+        }
+    }
+}
