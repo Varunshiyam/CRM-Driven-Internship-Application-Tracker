@@ -1,0 +1,16 @@
+OBJECT 2:  Skills__c
+
+Fields:
+
+1.   Completion_Status__c  (Picklist values: “Not Started", "In Progress", "Achieved", "Deferred”)
+2.  End_Date__c (Date)
+3.  Next_Reminder_Date__c(date)
+4.  Proficiency_Level__c (Picklist values: "Beginner", "Intermediate", "Advanced”)
+5.  Reason_To_Learn__c (text area)
+6.  Reminder_Frequency__c (Picklist values: "Weekly", "Monthly", "Custom”)
+7.  Reminder_Needed__c (Checkbox) 
+8.  Skill_Type__c (Picklist values: "Learned", "To Learn”)
+9.  Name ( Skill name : text)
+10.  Start_Date__c ( Date) 
+11.  User__c (lookup(User))
+12. Priority__c (number)

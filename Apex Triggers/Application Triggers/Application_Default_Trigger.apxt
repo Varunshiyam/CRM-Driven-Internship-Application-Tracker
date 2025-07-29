@@ -1,0 +1,9 @@
+//Default Today Date Selector Trigger Application
+
+trigger Application_Default_Trigger on Application__c (before insert, before update) {
+    for (Application__c app : Trigger.new) {
+        if (app.Applied__c == true && app.Applied_On__c == null) {
+            app.Applied_On__c = Date.today();
+        }
+    }
+}

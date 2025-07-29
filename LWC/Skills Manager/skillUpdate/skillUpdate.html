@@ -1,0 +1,79 @@
+<template>
+    <lightning-card title="Update Your Skills" icon-name="custom:custom63">
+        <div class="skills-update-main">
+            <template if:true={skills}>
+                <template if:true={skills.length}>
+                    <div class="skills-update-scrollarea">
+                        <template for:each={skills} for:item="skill" for:index="idx">
+                            <div key={skill.Id} class="record-card">
+                                <table class="record-table">
+                                    <tr>
+                                        <td class="label-cell">Skill Name</td>
+                                        <td class="value-cell skillname-cell" title={skill.Name}>
+                                            <span class="bold-skill-name">{skill.Name}</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="label-cell">Skill Type</td>
+                                        <td class="value-cell">
+                                            <lightning-combobox
+                                                value={skill.Skill_Type__c}
+                                                options={skillTypeOptions}
+                                                data-id={skill.Id}
+                                                data-field="Skill_Type__c"
+                                                onchange={handlePicklistChange}>
+                                            </lightning-combobox>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="label-cell">Completion Status</td>
+                                        <td class="value-cell">
+                                            <lightning-combobox
+                                                value={skill.Completion_Status__c}
+                                                options={completionStatusOptions}
+                                                data-id={skill.Id}
+                                                data-field="Completion_Status__c"
+                                                onchange={handlePicklistChange}>
+                                            </lightning-combobox>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="label-cell">Days Remaining</td>
+                                        <td class="value-cell">
+                                            <span class="days-remaining-box {skill.daysRemainingClass}" title={skill.daysRemainingTooltip}>
+                                                {skill.daysRemainingText}
+                                            </span>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <div class="record-actions">
+                                    <lightning-button 
+                                        label="Save Changes" 
+                                        variant="brand" 
+                                        onclick={handleSaveRecord}
+                                        data-id={skill.Id}
+                                        disabled={skill.isSaving}
+                                        class="save-button">
+                                    </lightning-button>
+                                    <template if:true={skill.isSaving}>
+                                        <lightning-spinner size="small" alternative-text="Saving..."></lightning-spinner>
+                                    </template>
+                                </div>
+                                <div class="skill-divider"></div>
+                            </div>
+                        </template>
+                    </div>
+                </template>
+                <template if:false={skills.length}>
+                    <div class="no-skills">
+                        <lightning-icon icon-name="utility:info_alt" size="small"></lightning-icon>
+                        <span>You have no skills to update.</span>
+                    </div>
+                </template>
+            </template>
+            <template if:true={error}>
+                <p class="slds-text-color_error error-msg">{error}</p>
+            </template>
+        </div>
+    </lightning-card>
+</template>
