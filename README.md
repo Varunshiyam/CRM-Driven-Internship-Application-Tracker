@@ -177,6 +177,7 @@ These LWCs deliver a seamless, responsive user experience fully integrated with 
 
 
 
+
 ---
 
 ### Key Directories
@@ -195,38 +196,22 @@ Below is a tab showcasing our amazing contributors and their contribution counts
 
 <table style="overflow-x: auto; white-space: nowrap; width: 100%; padding: 8px 0; background-color: #f5f5f5; border-radius: 6px; border-collapse: collapse;">
   <tr>
-    <td style="display: inline-block; padding: 8px; text-align: center; min-width: 140px; vertical-align: middle;">
+    <td style="display: inline-block; padding: 8px; text-align: center; min-width: 140px; vertical-align: middle; @media (max-width: 600px) { min-width: 110px; padding: 6px; }">
       <a href="https://github.com/Varunshiyam" target="_blank" style="text-decoration: none; color: #333;">
-        <img src="https://avatars.githubusercontent.com/u/138989960?v=4" alt="Varunshiyam" style="width: 40px; height: 40px; border-radius: 50%; margin-bottom: 4px;">
-        <div style="font-size: 13px; font-weight: bold;">Varunshiyam</div>
-        <div style="font-size: 11px; color: #555;">31 contributions</div>
+        <img src="https://avatars.githubusercontent.com/u/138989960?v=4" alt="Varunshiyam" style="width: 40px; height: 40px; border-radius: 50%; margin-bottom: 4px; @media (max-width: 600px) { width: 30px; height: 30px; }">
+        <div style="font-size: 13px; font-weight: bold; @media (max-width: 600px) { font-size: 10px; }">Varunshiyam</div>
+        <div style="font-size: 11px; color: #555; @media (max-width: 600px) { font-size: 10px; }">31 contributions</div>
       </a>
     </td>
-    <td style="display: inline-block; padding: 8px; text-align: center; min-width: 140px; vertical-align: middle;">
+    <td style="display: inline-block; padding: 8px; text-align: center; min-width: 140px; vertical-align: middle; @media (max-width: 600px) { min-width: 110px; padding: 6px; }">
       <a href="https://github.com/Meghana-2124" target="_blank" style="text-decoration: none; color: #333;">
-        <img src="https://avatars.githubusercontent.com/u/204466699?v=4" alt="Meghana-2124" style="width: 40px; height: 40px; border-radius: 50%; margin-bottom: 4px;">
-        <div style="font-size: 13px; font-weight: bold;">Meghana-2124</div>
-        <div style="font-size: 11px; color: #555;">1 contribution</div>
+        <img src="https://avatars.githubusercontent.com/u/204466699?v=4" alt="Meghana-2124" style="width: 40px; height: 40px; border-radius: 50%; margin-bottom: 4px; @media (max-width: 600px) { width: 30px; height: 30px; }">
+        <div style="font-size: 13px; font-weight: bold; @media (max-width: 600px) { font-size: 10px; }">Meghana-2124</div>
+        <div style="font-size: 11px; color: #555; @media (max-width: 600px) { font-size: 10px; }">1 contribution</div>
       </a>
     </td>
   </tr>
 </table>
-
-<style>
-@media (max-width: 600px) {
-  td {
-    min-width: 110px;
-    padding: 6px;
-  }
-  img {
-    width: 30px;
-    height: 30px;
-  }
-  div {
-    font-size: 10px;
-  }
-}
-</style>
 
 ---
 
