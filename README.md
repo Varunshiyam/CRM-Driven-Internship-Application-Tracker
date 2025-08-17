@@ -174,6 +174,7 @@ These LWCs deliver a seamless, responsive user experience fully integrated with 
 
 
 
+
 ---
 
 ### Key Directories
@@ -188,66 +189,36 @@ These LWCs deliver a seamless, responsive user experience fully integrated with 
 
 ## Contributors
 
-Below is an auto-scrolling tab showcasing our amazing contributors and their contribution counts. (Auto-updated via GitHub Actions)
+Below is a tab showcasing our amazing contributors and their contribution counts. (Auto-updated via GitHub Actions)
 
-<div id="contributor-tab" style="overflow: hidden; white-space: nowrap; width: 100%; padding: 8px 0; background-color: #f5f5f5; border-radius: 6px; display: inline-block;">
-  <div id="contributor-list" style="display: inline-block; animation: scroll 15s linear infinite;">
-    <span style="display: inline-block; padding: 8px; text-align: center; min-width: 140px; vertical-align: middle;">
-      <a href="https://github.com/Varunshiyam" target="_blank" style="text-decoration: none; color: #333;">
-        <img src="https://avatars.githubusercontent.com/u/138989960?v=4" alt="Varunshiyam" style="width: 40px; height: 40px; border-radius: 50%; margin-bottom: 4px;">
-        <div style="font-size: 13px; font-weight: bold;">Varunshiyam</div>
-        <div style="font-size: 11px; color: #555;">31 contributions</div>
-      </a>
-    </span>
-    <span style="display: inline-block; padding: 8px; text-align: center; min-width: 140px; vertical-align: middle;">
-      <a href="https://github.com/Meghana-2124" target="_blank" style="text-decoration: none; color: #333;">
-        <img src="https://avatars.githubusercontent.com/u/204466699?v=4" alt="Meghana-2124" style="width: 40px; height: 40px; border-radius: 50%; margin-bottom: 4px;">
-        <div style="font-size: 13px; font-weight: bold;">Meghana-2124</div>
-        <div style="font-size: 11px; color: #555;">1 contribution</div>
-      </a>
-    </span>
-    <!-- Duplicated for seamless scrolling -->
-    <span style="display: inline-block; padding: 8px; text-align: center; min-width: 140px; vertical-align: middle;">
-      <a href="https://github.com/Varunshiyam" target="_blank" style="text-decoration: none; color: #333;">
-        <img src="https://avatars.githubusercontent.com/u/138989960?v=4" alt="Varunshiyam" style="width: 40px; height: 40px; border-radius: 50%; margin-bottom: 4px;">
-        <div style="font-size: 13px; font-weight: bold;">Varunshiyam</div>
-        <div style="font-size: 11px; color: #555;">31 contributions</div>
-      </a>
-    </span>
-    <span style="display: inline-block; padding: 8px; text-align: center; min-width: 140px; vertical-align: middle;">
-      <a href="https://github.com/Meghana-2124" target="_blank" style="text-decoration: none; color: #333;">
-        <img src="https://avatars.githubusercontent.com/u/204466699?v=4" alt="Meghana-2124" style="width: 40px; height: 40px; border-radius: 50%; margin-bottom: 4px;">
-        <div style="font-size: 13px; font-weight: bold;">Meghana-2124</div>
-        <div style="font-size: 11px; color: #555;">1 contribution</div>
-      </a>
-    </span>
-  </div>
+<div style="overflow-x: auto; white-space: nowrap; width: 100%; padding: 8px 0; background-color: #f5f5f5; border-radius: 6px;">
+  <span style="display: inline-block; padding: 8px; text-align: center; min-width: 140px; vertical-align: middle;">
+    <a href="https://github.com/Varunshiyam" target="_blank" style="text-decoration: none; color: #333;">
+      <img src="https://avatars.githubusercontent.com/u/138989960?v=4" alt="Varunshiyam" style="width: 40px; height: 40px; border-radius: 50%; margin-bottom: 4px;">
+      <div style="font-size: 13px; font-weight: bold;">Varunshiyam</div>
+      <div style="font-size: 11px; color: #555;">31 contributions</div>
+    </a>
+  </span>
+  <span style="display: inline-block; padding: 8px; text-align: center; min-width: 140px; vertical-align: middle;">
+    <a href="https://github.com/Meghana-2124" target="_blank" style="text-decoration: none; color: #333;">
+      <img src="https://avatars.githubusercontent.com/u/204466699?v=4" alt="Meghana-2124" style="width: 40px; height: 40px; border-radius: 50%; margin-bottom: 4px;">
+      <div style="font-size: 13px; font-weight: bold;">Meghana-2124</div>
+      <div style="font-size: 11px; color: #555;">1 contribution</div>
+    </a>
+  </span>
 </div>
 
 <style>
-@keyframes scroll {
-  0% { margin-left: 0; }
-  100% { margin-left: -50%; }
-}
-
-#contributor-tab {
-  overflow: hidden;
-}
-
-#contributor-list:hover {
-  animation-play-state: paused;
-}
-
 @media (max-width: 600px) {
-  #contributor-list span {
+  span {
     min-width: 110px;
     padding: 6px;
   }
-  #contributor-list img {
+  img {
     width: 30px;
     height: 30px;
   }
-  #contributor-list div {
+  div {
     font-size: 10px;
   }
 }
