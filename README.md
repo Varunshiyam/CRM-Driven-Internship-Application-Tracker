@@ -1,17 +1,14 @@
-
 ![product-portfolio-salesai-background-2](https://github.com/user-attachments/assets/87a558bd-c9e7-43e3-b82f-b38f9f3145cc)
 
 # Internship Tracker & Skills Badge Manager APP
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Varunshiyam/CRM-Driven-Internship-Application-Tracker/pulls)
-[![GitHub contributors](https://img.shields.io/github/contributors/Varunshiyam/internship-tracker)](https://github.com/Varunshiyam/CRM-Driven-Internship-Application-Tracker/graphs/contributors)
+[![GitHub contributors](https://img.shields.io/github/contributors/Varunshiyam/CRM-Driven-Internship-Application-Tracker)](https://github.com/Varunshiyam/CRM-Driven-Internship-Application-Tracker/graphs/contributors)
 [![License: GPL v2](https://img.shields.io/badge/License-GPLv2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
-[![GitHub issues](https://img.shields.io/github/issues/Varunshiyam/internship-tracker)](https://github.com/Varunshiyam/CRM-Driven-Internship-Application-Tracker/issues)
+[![GitHub issues](https://img.shields.io/github/issues/Varunshiyam/CRM-Driven-Internship-Application-Tracker)](https://github.com/Varunshiyam/CRM-Driven-Internship-Application-Tracker/issues)
 [![Discussions](https://img.shields.io/badge/Discussions-open-blue)](https://github.com/Varunshiyam/CRM-Driven-Internship-Application-Tracker/discussions)
 
 ---
-
-
 
 ## 📌 Project Overview
 
@@ -25,37 +22,25 @@ Built with **Lightning Web Components (LWC)** for a modern UI and comprehensive 
 - Earn badges recognizing skill achievements.
 - Automate important email notifications triggered by system events.
 
-This repository contains well-structured folders housing Apex classes, triggers, LWCs, object metadata, static resources, and essential docs.
+This repository contains well-structured folders housing Apex classes, triggers, LWCs, object metadata, and essential docs.
 
 ---
 
 ## Application Filter:
 
-
-
 https://github.com/user-attachments/assets/8c0468c0-8257-4881-8ffa-9c3a2279ec35
-
 
 ---
 
 ## Drag & Drop Skills:
 
-
-
-
 https://github.com/user-attachments/assets/d205771d-585b-4cd5-bd48-8362add3f666
-
 
 ---
 
 ## Achievements And Awards:
 
-
-
 https://github.com/user-attachments/assets/9428af47-f068-49fe-bd49-97d9f2d05425
-
-
-
 
 ---
 
@@ -66,6 +51,7 @@ https://github.com/user-attachments/assets/9428af47-f068-49fe-bd49-97d9f2d05425
 - [Automation & Logic](#-automation--logic)
 - [Lightning Web Components (LWC)](#-lightning-web-components-lwc)
 - [📂 Project Structure](#-project-structure)
+- [Contributors](#-contributors)
 - [Getting Started](#-getting-started)
 - [Contributing](#-contributing)
 - [License](#-license)
@@ -86,19 +72,11 @@ https://github.com/user-attachments/assets/9428af47-f068-49fe-bd49-97d9f2d05425
 
 ## Application Form:
 
-
-
-https://github.com/user-attachments/assets/772c1498-1106-4eaf-9e84-5c8a1299c3fe     
-
-
+https://github.com/user-attachments/assets/772c1498-1106-4eaf-9e84-5c8a1299c3fe
 
 https://github.com/user-attachments/assets/3ec68168-6526-4fd6-8e1e-d80bc5ba3234
 
-
-
-
 ---
-
 
 ## 🗂️ Data Models
 
@@ -154,6 +132,7 @@ These LWCs deliver a seamless, responsive user experience fully integrated with 
 
 ## 📂 Project Structure
 
+
 ```
 .
 ├── .gitignore
@@ -192,6 +171,8 @@ These LWCs deliver a seamless, responsive user experience fully integrated with 
         └── SkillTrigger.trigger
 ```
 
+
+
 ---
 
 ### Key Directories
@@ -202,10 +183,74 @@ These LWCs deliver a seamless, responsive user experience fully integrated with 
 * `lwc/`: Source code for the Lightning Web Components that make up the user interface.
 * `staticresources/`: Holds static assets like images, icons, and stylesheets.
 
-
-
 ---
 
+## Contributors
+
+Below is an auto-scrolling tab showcasing our amazing contributors and their contribution counts. (Auto-updated via GitHub Actions)
+
+<div id="contributor-tab" style="overflow-x: hidden; white-space: nowrap; width: 100%; padding: 10px 0; background-color: #f9f9f9; border-radius: 8px;">
+  <div id="contributor-list" style="display: inline-block; animation: scroll 20s linear infinite;">
+    <!-- Contributor items (original list) -->
+    <div style="display: inline-block; padding: 10px; text-align: center; min-width: 150px;">
+      <a href="https://github.com/Varunshiyam" target="_blank" style="text-decoration: none; color: #333;">
+        <img src="https://avatars.githubusercontent.com/u/138989960?v=4" alt="Varunshiyam" style="width: 50px; height: 50px; border-radius: 50%; margin-bottom: 5px;">
+        <div style="font-size: 14px; font-weight: bold;">Varunshiyam</div>
+        <div style="font-size: 12px; color: #666;">31 contributions</div>
+      </a>
+    </div>
+    <div style="display: inline-block; padding: 10px; text-align: center; min-width: 150px;">
+      <a href="https://github.com/Meghana-2124" target="_blank" style="text-decoration: none; color: #333;">
+        <img src="https://avatars.githubusercontent.com/u/204466699?v=4" alt="Meghana-2124" style="width: 50px; height: 50px; border-radius: 50%; margin-bottom: 5px;">
+        <div style="font-size: 14px; font-weight: bold;">Meghana-2124</div>
+        <div style="font-size: 12px; color: #666;">1 contribution</div>
+      </a>
+    </div>
+    <!-- Duplicated list for seamless infinite scroll -->
+    <div style="display: inline-block; padding: 10px; text-align: center; min-width: 150px;">
+      <a href="https://github.com/Varunshiyam" target="_blank" style="text-decoration: none; color: #333;">
+        <img src="https://avatars.githubusercontent.com/u/138989960?v=4" alt="Varunshiyam" style="width: 50px; height: 50px; border-radius: 50%; margin-bottom: 5px;">
+        <div style="font-size: 14px; font-weight: bold;">Varunshiyam</div>
+        <div style="font-size: 12px; color: #666;">31 contributions</div>
+      </a>
+    </div>
+    <div style="display: inline-block; padding: 10px; text-align: center; min-width: 150px;">
+      <a href="https://github.com/Meghana-2124" target="_blank" style="text-decoration: none; color: #333;">
+        <img src="https://avatars.githubusercontent.com/u/204466699?v=4" alt="Meghana-2124" style="width: 50px; height: 50px; border-radius: 50%; margin-bottom: 5px;">
+        <div style="font-size: 14px; font-weight: bold;">Meghana-2124</div>
+        <div style="font-size: 12px; color: #666;">1 contribution</div>
+      </a>
+    </div>
+  </div>
+</div>
+
+<style>
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+#contributor-tab::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for cleaner look */
+}
+
+#contributor-list:hover {
+  animation-play-state: paused; /* Pause on hover */
+}
+
+@media (max-width: 600px) {
+  #contributor-list div {
+    min-width: 120px; /* Smaller for mobile */
+  }
+  #contributor-list img {
+    width: 40px;
+    height: 40px;
+  }
+  #contributor-list div div {
+    font-size: 12px; /* Adjust font */
+  }
+}
+</style>
 
 ---
 
@@ -224,4 +269,14 @@ These LWCs deliver a seamless, responsive user experience fully integrated with 
 
 We're Happy TO Welcome Contributions!
 
+---
 
+## 📜 License
+
+This project is licensed under the [GNU General Public License v2.0](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html).
+
+---
+
+## 📬 Contact
+
+For inquiries, suggestions, or feedback, please reach out via [GitHub Discussions](https://github.com/Varunshiyam/CRM-Driven-Internship-Application-Tracker/discussions) or open an issue.
