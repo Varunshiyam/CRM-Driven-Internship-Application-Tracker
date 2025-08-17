@@ -132,7 +132,6 @@ These LWCs deliver a seamless, responsive user experience fully integrated with 
 
 ## 📂 Project Structure
 
-
 ```
 .
 ├── .gitignore
@@ -173,6 +172,7 @@ These LWCs deliver a seamless, responsive user experience fully integrated with 
 
 
 
+
 ---
 
 ### Key Directories
@@ -189,36 +189,36 @@ These LWCs deliver a seamless, responsive user experience fully integrated with 
 
 Below is an auto-scrolling tab showcasing our amazing contributors and their contribution counts. (Auto-updated via GitHub Actions)
 
-<div id="contributor-tab" style="overflow-x: hidden; white-space: nowrap; width: 100%; padding: 10px 0; background-color: #f9f9f9; border-radius: 8px;">
-  <div id="contributor-list" style="display: inline-block; animation: scroll 20s linear infinite;">
+<div id="contributor-tab" style="overflow: hidden; white-space: nowrap; width: 100%; padding: 8px 0; background-color: #f5f5f5; border-radius: 6px;">
+  <div id="contributor-list" style="display: inline-block; animation: scroll 15s linear infinite;">
     <!-- Contributor items (original list) -->
-    <div style="display: inline-block; padding: 10px; text-align: center; min-width: 150px;">
+    <div style="display: inline-block; padding: 8px; text-align: center; min-width: 140px; vertical-align: middle;">
       <a href="https://github.com/Varunshiyam" target="_blank" style="text-decoration: none; color: #333;">
-        <img src="https://avatars.githubusercontent.com/u/138989960?v=4" alt="Varunshiyam" style="width: 50px; height: 50px; border-radius: 50%; margin-bottom: 5px;">
-        <div style="font-size: 14px; font-weight: bold;">Varunshiyam</div>
-        <div style="font-size: 12px; color: #666;">31 contributions</div>
+        <img src="https://avatars.githubusercontent.com/u/138989960?v=4" alt="Varunshiyam" style="width: 40px; height: 40px; border-radius: 50%; margin-bottom: 4px;">
+        <div style="font-size: 13px; font-weight: bold;">Varunshiyam</div>
+        <div style="font-size: 11px; color: #555;">31 contributions</div>
       </a>
     </div>
-    <div style="display: inline-block; padding: 10px; text-align: center; min-width: 150px;">
+    <div style="display: inline-block; padding: 8px; text-align: center; min-width: 140px; vertical-align: middle;">
       <a href="https://github.com/Meghana-2124" target="_blank" style="text-decoration: none; color: #333;">
-        <img src="https://avatars.githubusercontent.com/u/204466699?v=4" alt="Meghana-2124" style="width: 50px; height: 50px; border-radius: 50%; margin-bottom: 5px;">
-        <div style="font-size: 14px; font-weight: bold;">Meghana-2124</div>
-        <div style="font-size: 12px; color: #666;">1 contribution</div>
+        <img src="https://avatars.githubusercontent.com/u/204466699?v=4" alt="Meghana-2124" style="width: 40px; height: 40px; border-radius: 50%; margin-bottom: 4px;">
+        <div style="font-size: 13px; font-weight: bold;">Meghana-2124</div>
+        <div style="font-size: 11px; color: #555;">1 contribution</div>
       </a>
     </div>
     <!-- Duplicated list for seamless infinite scroll -->
-    <div style="display: inline-block; padding: 10px; text-align: center; min-width: 150px;">
+    <div style="display: inline-block; padding: 8px; text-align: center; min-width: 140px; vertical-align: middle;">
       <a href="https://github.com/Varunshiyam" target="_blank" style="text-decoration: none; color: #333;">
-        <img src="https://avatars.githubusercontent.com/u/138989960?v=4" alt="Varunshiyam" style="width: 50px; height: 50px; border-radius: 50%; margin-bottom: 5px;">
-        <div style="font-size: 14px; font-weight: bold;">Varunshiyam</div>
-        <div style="font-size: 12px; color: #666;">31 contributions</div>
+        <img src="https://avatars.githubusercontent.com/u/138989960?v=4" alt="Varunshiyam" style="width: 40px; height: 40px; border-radius: 50%; margin-bottom: 4px;">
+        <div style="font-size: 13px; font-weight: bold;">Varunshiyam</div>
+        <div style="font-size: 11px; color: #555;">31 contributions</div>
       </a>
     </div>
-    <div style="display: inline-block; padding: 10px; text-align: center; min-width: 150px;">
+    <div style="display: inline-block; padding: 8px; text-align: center; min-width: 140px; vertical-align: middle;">
       <a href="https://github.com/Meghana-2124" target="_blank" style="text-decoration: none; color: #333;">
-        <img src="https://avatars.githubusercontent.com/u/204466699?v=4" alt="Meghana-2124" style="width: 50px; height: 50px; border-radius: 50%; margin-bottom: 5px;">
-        <div style="font-size: 14px; font-weight: bold;">Meghana-2124</div>
-        <div style="font-size: 12px; color: #666;">1 contribution</div>
+        <img src="https://avatars.githubusercontent.com/u/204466699?v=4" alt="Meghana-2124" style="width: 40px; height: 40px; border-radius: 50%; margin-bottom: 4px;">
+        <div style="font-size: 13px; font-weight: bold;">Meghana-2124</div>
+        <div style="font-size: 11px; color: #555;">1 contribution</div>
       </a>
     </div>
   </div>
@@ -230,24 +230,25 @@ Below is an auto-scrolling tab showcasing our amazing contributors and their con
   100% { transform: translateX(-50%); }
 }
 
-#contributor-tab::-webkit-scrollbar {
-  display: none; /* Hide scrollbar for cleaner look */
+#contributor-tab {
+  overflow-x: hidden;
 }
 
 #contributor-list:hover {
-  animation-play-state: paused; /* Pause on hover */
+  animation-play-state: paused;
 }
 
 @media (max-width: 600px) {
   #contributor-list div {
-    min-width: 120px; /* Smaller for mobile */
+    min-width: 110px;
+    padding: 6px;
   }
   #contributor-list img {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
   }
   #contributor-list div div {
-    font-size: 12px; /* Adjust font */
+    font-size: 10px;
   }
 }
 </style>
