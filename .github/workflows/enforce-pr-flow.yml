@@ -1,0 +1,33 @@
+name: PR-Flow Gate
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize, reopened, ready_for_review]
+    branches: [main, dev]
+
+jobs:
+  guard-main:
+    if: github.event.pull_request.base.ref == 'main'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Allow only dev → main
+        run: |
+          if [ "${{ github.event.pull_request.head.ref }}" != "dev" ]; then
+            echo "❌ Only PRs from 'dev' can be merged into 'main'."
+            echo "Head branch: ${{ github.event.pull_request.head.ref }}"
+            exit 1
+          fi
+          echo "✅ dev → main allowed."
+
+  guard-dev:
+    if: github.event.pull_request.base.ref == 'dev'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Allow only cont → dev
+        run: |
+          if [ "${{ github.event.pull_request.head.ref }}" != "cont" ]; then
+            echo "❌ Only PRs from 'cont' can be merged into 'dev'."
+            echo "Head branch: ${{ github.event.pull_request.head.ref }}"
+            exit 1
+          fi
+          echo "✅ cont → dev allowed."
