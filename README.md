@@ -179,6 +179,7 @@ These LWCs deliver a seamless, responsive user experience fully integrated with 
 
 
 
+
 ---
 
 ### Key Directories
@@ -193,7 +194,7 @@ These LWCs deliver a seamless, responsive user experience fully integrated with 
 
 ## Contributors
 
-Below is a tab showcasing our amazing contributors and their contribution counts. (Auto-updated via GitHub Actions)
+These are our amazing contributors and their contribution counts. (Auto-updated via GitHub Actions)
 
 <table style="overflow-x: auto; white-space: nowrap; width: 100%; padding: 12px 0; background: linear-gradient(to right, #f5f7fa, #e0e7ff); border-radius: 10px; border: 1px solid #d1d9e6; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border-collapse: collapse; margin: 10px 0;">
   <tr>
