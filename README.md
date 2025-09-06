@@ -220,24 +220,19 @@ These LWCs deliver a seamless, responsive user experience fully integrated with 
 
 ---
 
-## 🤝 Contributing
+## 🤝 Contributors
 
-We're Happy TO Welcome Contributions!
 
-### Contributors
+Thanks to these amazing people for their contributions 🎉  
 
-<div style="overflow-x: auto; white-space: nowrap; border: 1px solid #ddd; padding: 10px; margin-top: 10px; border-radius: 8px;">
-  <span style="display: inline-block; margin-right: 20px; text-align: center;">
-    <strong>Aaditya Bansal</strong><br>Contributions: 5
-  </span>
-  <span style="display: inline-block; margin-right: 20px; text-align: center;">
-    <strong>Varun Shiyam</strong><br>Contributions: 10
-  </span>
-  <span style="display: inline-block; margin-right: 20px; text-align: center;">
-    <strong>Jane Doe</strong><br>Contributions: 3
-  </span>
-  <span style="display: inline-block; margin-right: 20px; text-align: center;">
-    <strong>John Smith</strong><br>Contributions: 2
-  </span>
-  <!-- Add more contributors here -->
-</div>
+<!-- Horizontal contributor avatars -->
+<a href="https://github.com/Varunshiyam/CRM-Driven-Internship-Application-Tracker/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Varunshiyam/CRM-Driven-Internship-Application-Tracker" />
+</a>
+
+<!-- Contribution counts -->
+| Contributor | Contributions |
+|-------------|---------------|
+| [Aaditya Bansal](https://github.com/AadityaBansal01) | 5 |
+| [Varun Shiyam](https://github.com/Varunshiyam) | 10 |
+| [Jane Doe](https://github.com/janedoe) | 3 |
