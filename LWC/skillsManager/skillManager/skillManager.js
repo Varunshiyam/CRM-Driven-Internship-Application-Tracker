@@ -4,7 +4,7 @@ import createSkill from '@salesforce/apex/SkillsController.createSkill';
 import { ShowToastEvent } from 'lightning/platformShowToastEvent';
 import { refreshApex } from '@salesforce/apex';
 
-export default class SkillManager extends LightningElement {
+export default class skillManager extends LightningElement {
     @track skills;
     @track error;
     wiredSkillsResult;

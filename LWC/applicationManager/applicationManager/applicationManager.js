@@ -6,7 +6,7 @@ import deleteApplication from '@salesforce/apex/ApplicationController.deleteAppl
 import { ShowToastEvent } from 'lightning/platformShowToastEvent';
 import { refreshApex } from '@salesforce/apex';
 
-export default class ApplicationManager extends LightningElement {
+export default class applicationManager extends LightningElement {
     @track applications;
     @track error;
 

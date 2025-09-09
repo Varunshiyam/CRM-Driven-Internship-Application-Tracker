@@ -3,7 +3,7 @@ import getUserSkills from '@salesforce/apex/SkillsUpdateController.getUserSkills
 import updateSkills from '@salesforce/apex/SkillsUpdateController.updateSkills';
 import { ShowToastEvent } from 'lightning/platformShowToastEvent';
 
-export default class SkillsUpdate extends LightningElement {
+export default class skillsUpdate extends LightningElement {
     @track skills = [];
     @track error;
 

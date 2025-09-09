@@ -3,7 +3,7 @@ import getToLearnSkills from '@salesforce/apex/SkillPriorityController.getToLear
 import updateSkillPriorities from '@salesforce/apex/SkillPriorityController.updateSkillPriorities';
 import { ShowToastEvent } from 'lightning/platformShowToastEvent';
 
-export default class SkillPriorityManager extends LightningElement {
+export default class skillPriorityManager extends LightningElement {
     @track skills = [];
     @track error;
     @track isLoading = true;

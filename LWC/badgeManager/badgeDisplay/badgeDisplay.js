@@ -5,7 +5,7 @@ import saveUserBadgeOrder from '@salesforce/apex/BadgeDisplayController.saveUser
 import USER_ID from '@salesforce/user/Id';
 import { ShowToastEvent } from 'lightning/platformShowToastEvent';
 
-export default class BadgeDisplay extends LightningElement {
+export default class badgeDisplay extends LightningElement {
     @track badges;
     @track error;
 

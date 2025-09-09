@@ -4,7 +4,7 @@ import updateApplicationStatus from '@salesforce/apex/ReminderController.updateA
 import { ShowToastEvent } from 'lightning/platformShowToastEvent';
 import { refreshApex } from '@salesforce/apex';
 
-export default class ApplicationReminder extends LightningElement {
+export default class applicationReminder extends LightningElement {
     daysAhead = 7; // default days to look ahead
     @track applications;
     @track error;
