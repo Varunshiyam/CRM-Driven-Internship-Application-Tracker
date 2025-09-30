@@ -1,7 +1,7 @@
 ![product-portfolio-salesai-background-2](https://github.com/user-attachments/assets/87a558bd-c9e7-43e3-b82f-b38f9f3145cc)
 
 
-# Internship Tracker & Skills Badge Manager APP
+#  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="40" height="40" />Internship Tracker & Skills Badge Manager APP
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Varunshiyam/CRM-Driven-Internship-Application-Tracker/pulls)
 [![GitHub contributors](https://img.shields.io/github/contributors/Varunshiyam/internship-tracker)](https://github.com/Varunshiyam/CRM-Driven-Internship-Application-Tracker/graphs/contributors)
@@ -59,7 +59,7 @@ https://github.com/user-attachments/assets/9428af47-f068-49fe-bd49-97d9f2d05425
 
 ---
 
-## 📊 Table of Contents
+## <img src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/blob/master/Emojis/Hand%20gestures/Flexed%20Biceps.png?raw=true" width="35" height="35" > Table of Contents
 
 - [Features](#-features)
 - [Data Models](#-data-models)
@@ -136,7 +136,7 @@ https://github.com/user-attachments/assets/3ec68168-6526-4fd6-8e1e-d80bc5ba3234
 
 ---
 
-## 💻 Lightning Web Components (LWC)
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/High%20Voltage.png" alt="High Voltage" width="40" height="40" /> Lightning Web Components (LWC)
 
 ### Application Components:
 - Internship Application Form
@@ -205,6 +205,9 @@ These LWCs deliver a seamless, responsive user experience fully integrated with 
 
 
 ---
+
+
+  ### Don't forget to leave a star<img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f31f/512.webp" width="35" height="30"> for this project!
 
 
 ---
