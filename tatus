@@ -1,0 +1,32 @@
+[33me83b37e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32myour-feature-branch[m[33m, [m[1;31morigin/your-feature-branch[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m Merge pull request #4 from Meghana-2124/add-code-of-conduct
+[33m3fab0dc[m Add Code Of Conduct file for GSSoC 2025 contribution
+[33m2bb7707[m Rename Contribution Guidelines to Contribution Guidelines.md
+[33m9912c76[m Update README.md
+[33m5f13493[m Create npm-publish.yml
+[33m5d4657f[m Merge pull request #1 from Varunshiyam/DEV
+[33m99de383[m Update Contribution Guidelines
+[33m454ce2b[m Update README.md
+[33m2c8f91b[m Static Resources are Listed Here
+[33mb25d7ca[m Delete Static Resources
+[33me7387ac[m Objects / Fields Are Listed Here
+[33meb64d40[m Delete Object Manager
+[33me625dc9[m LWC Components Are Listed Here
+[33m80fa0f8[m Update README.md
+[33m9cf9ec3[m Delete LWC
+[33ma84a41e[m Create Apex Triggers Folder
+[33mff175bb[m Delete Triggers
+[33m16fd751[m Created Apex Classes Folder
+[33m6e3be4b[m Delete Apex Classes
+[33m23d9c47[m Update README.md
+[33m548db55[m Update README.md
+[33m40d91f2[m Update README.md
+[33m51f2693[m Create LICENSE
+[33m6f880b6[m Create Contribution Guidelines
+[33m60c9d87[m Delete 7. Contribution Guidelines
+[33mb693bd0[m Create 7. Contribution Guidelines
+[33m103ee73[m Create Static Resources
+[33m9b37a37[m Create LWC
+[33m5887faa[m Create Object Manager
+[33m26e593d[m Create Apex Classes
+[33m59046e4[m Create Triggers
+[33mc87a187[m Initial commit
