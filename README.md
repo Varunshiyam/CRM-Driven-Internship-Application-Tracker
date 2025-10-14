@@ -1,3 +1,7 @@
+<div align="center">
+<img  src="https://readme-typing-svg.herokuapp.com?color=00A1E0&center=true&vCenter=true&size=40&width=900&height=80&lines=Welcome+to+Internship+Tracker!"/>
+</div>
+
 ![product-portfolio-salesai-background-2](https://github.com/user-attachments/assets/87a558bd-c9e7-43e3-b82f-b38f9f3145cc)
 
 
