@@ -231,4 +231,13 @@ These LWCs deliver a seamless, responsive user experience fully integrated with 
 
 We're Happy TO Welcome Contributions!
 
+---
+
+## ✨ Contributors
+
+#### Thanks to all the wonderful contributors 💖
+
+[![Contributors](https://contrib.rocks/image?repo=Varunshiyam/CRM-Driven-Internship-Application-Tracker)](https://github.com/Varunshiyam/CRM-Driven-Internship-Application-Tracker/graphs/contributors)
+
+
 
