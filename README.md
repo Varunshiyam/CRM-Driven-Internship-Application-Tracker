@@ -274,6 +274,28 @@ We're Happy TO Welcome Contributions!
 <a href="https://github.com/Varunshiyam/CRM-Driven-Internship-Application-Tracker/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Varunshiyam/CRM-Driven-Internship-Application-Tracker" />
 </a>
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
+
+
+## Featured In
+
+<table>
+<tr>
+      <th>Event Logo</th>
+      <th>Event Name</th>
+      <th>Event Description</th>
+    </tr>
+    <tr>
+        <td><img src="https://user-images.githubusercontent.com/63473496/213306279-338f7ce9-9a9f-4427-8c2a-3e344874498f.png#gh-dark-mode-only" width="200" height="auto" loading="lazy" alt="GSSoC Ext 24"/></td>
+        <td>GirlScript Summer of Code Ext 2025</td>
+        <td>GSSOC is a Three-month-long open-source program by the GirlScript Foundation </td> 
+    </tr>
+   <tr>
+        <td><img src="https://cdn.prod.website-files.com/63bc83b29094ec80844b6dd5/66fc35d92c74c4e4103f3673_Flyte-at-Hacktoberfest-2024.png" width="200" height="auto" loading="lazy" alt="Hacktoberfest 24"/></td>
+        <td>Hacktoberfest 2025</td>
+        <td>Hacktober Fest is an annual celebration of open-source software development. It's a month-long event encouraging developers to contribute to open-source projects.</td> 
+    </tr>
+</table>
 
 
 
