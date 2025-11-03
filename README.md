@@ -250,7 +250,6 @@ These LWCs deliver a seamless, responsive user experience fully integrated with 
 
 
 
-  ### Don't forget to leave a star<img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f31f/512.webp" width="35" height="30"> for this project!
 
 
 ---
@@ -297,5 +296,6 @@ We're Happy TO Welcome Contributions!
     </tr>
 </table>
 
+  ### Don't forget to leave a star<img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f31f/512.webp" width="35" height="30"> for this project!
 
 
