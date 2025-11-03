@@ -4,16 +4,40 @@
 
 ![product-portfolio-salesai-background-2](https://github.com/user-attachments/assets/87a558bd-c9e7-43e3-b82f-b38f9f3145cc)
 
+<div align = "center">
+<br>
 
-#  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="40" height="40" />Internship Tracker & Skills Badge Manager APP
+<table align="center">
+    <thead align="center">
+        <tr border: 1px;>
+            <td><b>🌟 Stars</b></td>
+            <td><b>🍴 Forks</b></td>
+            <td><b>🐛 Issues</b></td>
+            <td><b>🔔 Open PRs</b></td>
+            <td><b>🔕 Close PRs</b></td>
+            <td><b>🛠️ Languages</b></td>
+            <td><b>👥 Contributors</b></td>
+        </tr>
+     </thead>
+    <tbody>
+         <tr>
+            <td><img alt="Stars" src="https://img.shields.io/github/stars/Varunshiyam/CRM-Driven-Internship-Application-Tracker?style=flat&logo=github"/></td>
+            <td><img alt="Forks" src="https://img.shields.io/github/forks/Varunshiyam/CRM-Driven-Internship-Application-Tracker?style=flat&logo=github"/></td>
+            <td><img alt="Issues" src="https://img.shields.io/github/issues/Varunshiyam/CRM-Driven-Internship-Application-Tracker?style=flat&logo=github"/></td>
+            <td><img alt="Open Pull Requests" src="https://img.shields.io/github/issues-pr/Varunshiyam/CRM-Driven-Internship-Application-Tracker?style=flat&logo=github"/></td>
+           <td><img alt="Close Pull Requests" src="https://img.shields.io/github/issues-pr-closed/Varunshiyam/CRM-Driven-Internship-Application-Tracker?style=flat&color=critical&logo=github"/></td>
+           <td><img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Varunshiyam/CRM-Driven-Internship-Application-Tracker?style=flat&color=green&logo=github"></td>
+         <td><img alt="GitHub Contributors count" src="https://img.shields.io/github/contributors/Varunshiyam/CRM-Driven-Internship-Application-Tracker?style=flat&color=blue&logo=github"/></td>
+        </tr>
+    </tbody>
+</table>
+</div>
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Varunshiyam/CRM-Driven-Internship-Application-Tracker/pulls)
-[![GitHub contributors](https://img.shields.io/github/contributors/Varunshiyam/internship-tracker)](https://github.com/Varunshiyam/CRM-Driven-Internship-Application-Tracker/graphs/contributors)
-[![License: GPL v2](https://img.shields.io/badge/License-GPLv2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
-[![GitHub issues](https://img.shields.io/github/issues/Varunshiyam/internship-tracker)](https://github.com/Varunshiyam/CRM-Driven-Internship-Application-Tracker/issues)
-[![Discussions](https://img.shields.io/badge/Discussions-open-blue)](https://github.com/Varunshiyam/CRM-Driven-Internship-Application-Tracker/discussions)
+# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="40" height="40" />Internship Tracker & Skills Badge Manager APP
 
----
+
+
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 
 
@@ -31,51 +55,7 @@ Built with **Lightning Web Components (LWC)** for a modern UI and comprehensive 
 
 This repository contains well-structured folders housing Apex classes, triggers, LWCs, object metadata, static resources, and essential docs.
 
----
-
-## Application Filter:
-
-
-
-https://github.com/user-attachments/assets/8c0468c0-8257-4881-8ffa-9c3a2279ec35
-
-
----
-
-## Drag & Drop Skills:
-
-
-
-
-https://github.com/user-attachments/assets/d205771d-585b-4cd5-bd48-8362add3f666
-
-
----
-
-## Achievements And Awards:
-
-
-
-https://github.com/user-attachments/assets/9428af47-f068-49fe-bd49-97d9f2d05425
-
-
-
-
----
-
-## <img src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/blob/master/Emojis/Hand%20gestures/Flexed%20Biceps.png?raw=true" width="35" height="35" > Table of Contents
-
-- [Features](#-features)
-- [Data Models](#-data-models)
-- [Automation & Logic](#-automation--logic)
-- [Lightning Web Components (LWC)](#-lightning-web-components-lwc)
-- [📂 Project Structure](#-project-structure)
-- [Getting Started](#-getting-started)
-- [Contributing](#-contributing)
-- [License](#-license)
-- [Contact](#-contact)
-
----
+<img src="https://user-images.githubusercontent.com/85225156/171937799-8fc9e255-9889-4642-9c92-6df85fb86e82.gif" width="100%">
 
 ## 🚀 Features
 
@@ -86,7 +66,40 @@ https://github.com/user-attachments/assets/9428af47-f068-49fe-bd49-97d9f2d05425
 - **User-Friendly Interactive UI** powered by LWC components.
 - **Drag-and-Drop Skill Prioritizer** for personal learning path customization.
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
+
+
+## Application Filter:
+
+
+
+https://github.com/user-attachments/assets/8c0468c0-8257-4881-8ffa-9c3a2279ec35
+
+
+<img src="https://user-images.githubusercontent.com/85225156/171937799-8fc9e255-9889-4642-9c92-6df85fb86e82.gif" width="100%">
+
+
+## Drag & Drop Skills:
+
+
+
+
+https://github.com/user-attachments/assets/d205771d-585b-4cd5-bd48-8362add3f666
+
+
+<img src="https://user-images.githubusercontent.com/85225156/171937799-8fc9e255-9889-4642-9c92-6df85fb86e82.gif" width="100%">
+
+
+## Achievements And Awards:
+
+
+
+https://github.com/user-attachments/assets/9428af47-f068-49fe-bd49-97d9f2d05425
+
+
+
+<img src="https://user-images.githubusercontent.com/85225156/171937799-8fc9e255-9889-4642-9c92-6df85fb86e82.gif" width="100%">
+
 
 ## Application Form:
 
@@ -101,7 +114,23 @@ https://github.com/user-attachments/assets/3ec68168-6526-4fd6-8e1e-d80bc5ba3234
 
 
 
----
+<img src="https://user-images.githubusercontent.com/85225156/171937799-8fc9e255-9889-4642-9c92-6df85fb86e82.gif" width="100%">
+
+
+## <img src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/blob/master/Emojis/Hand%20gestures/Flexed%20Biceps.png?raw=true" width="35" height="35" > Table of Contents
+
+- [Features](#-features)
+- [Data Models](#-data-models)
+- [Automation & Logic](#-automation--logic)
+- [Lightning Web Components (LWC)](#-lightning-web-components-lwc)
+- [📂 Project Structure](#-project-structure)
+- [Getting Started](#-getting-started)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Contact](#-contact)
+
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
+
 
 
 ## 🗂️ Data Models
@@ -113,9 +142,14 @@ https://github.com/user-attachments/assets/3ec68168-6526-4fd6-8e1e-d80bc5ba3234
 | **User_Badge__c** | User-earned badges              | Badge Lookup, Earned Date, Associated User           |
 | **Badge__c**      | Badge definitions & metadata    | Name, Description, Image URL                          |
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
-## ⚙️ Automation & Logic (Apex Triggers & Classes)
+<img width="2048" height="640" alt="Apex" src="https://github.com/user-attachments/assets/918c8c17-7de4-4314-a928-afcdcef2b10f" />
+
+
+
+
+## <img src = "https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width = 30px height="38"> Automation & Logic (Apex Triggers & Classes)
 
 ### Application Triggers:
 - Send notification email when status transitions to **Selected**.
@@ -138,7 +172,10 @@ https://github.com/user-attachments/assets/3ec68168-6526-4fd6-8e1e-d80bc5ba3234
 | `SkillPriorityController`  | Drag-and-drop skill prioritizer logic  |
 | `SkillsUpdateController`    | Skill updates & interaction management|
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
+
+<img width="2048" height="640" alt="LWC" src="https://github.com/user-attachments/assets/03697eec-33bb-4ee9-946a-93efd18e966a" />
+
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/High%20Voltage.png" alt="High Voltage" width="40" height="40" /> Lightning Web Components (LWC)
 
@@ -196,7 +233,8 @@ These LWCs deliver a seamless, responsive user experience fully integrated with 
         └── SkillTrigger.trigger
 ```
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
+
 
 ### Key Directories
 
@@ -208,7 +246,8 @@ These LWCs deliver a seamless, responsive user experience fully integrated with 
 
 
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
+
 
 
   ### Don't forget to leave a star<img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f31f/512.webp" width="35" height="30"> for this project!
@@ -225,9 +264,10 @@ These LWCs deliver a seamless, responsive user experience fully integrated with 
 5. **Explore & Test:** Use the interactive LWCs in your org to manage applications, skills, and badges.
 6. **Refer to docs** inside respective folders for detailed instructions and best practices.
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
-## 🤝 Contributing
+
+## <img src='https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/handshake.gif' width="60px" height="35"> Contributing
 
 We're Happy TO Welcome Contributions!
 
