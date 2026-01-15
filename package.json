@@ -1,0 +1,21 @@
+{
+  "name": "crm-driven-internship-application-tracker",
+  "version": "1.0.0",
+  "description": "![product-portfolio-salesai-background-2](https://github.com/user-attachments/assets/87a558bd-c9e7-43e3-b82f-b38f9f3145cc)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MEHWISH310/CRM-Driven-Internship-Application-Tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MEHWISH310/CRM-Driven-Internship-Application-Tracker/issues"
+  },
+  "homepage": "https://github.com/MEHWISH310/CRM-Driven-Internship-Application-Tracker#readme"
+}

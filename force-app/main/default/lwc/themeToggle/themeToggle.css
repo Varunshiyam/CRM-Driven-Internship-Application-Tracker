@@ -1,0 +1,30 @@
+.toggle-btn {
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.dark-mode {
+    background-color: #1e1e1e;
+    color: #f1f1f1;
+}
+
+.dark-mode .slds-card,
+.dark-mode .slds-panel,
+.dark-mode .slds-table {
+    background-color: #2a2a2a !important;
+    color: #f1f1f1 !important;
+}
+
+.dark-mode .toggle-btn {
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+/* Smooth transition */
+body, .slds-card, .slds-panel {
+    transition: background-color 0.3s, color 0.3s;
+}
